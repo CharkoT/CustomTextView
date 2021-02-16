@@ -19,13 +19,6 @@ class MainActivity : AppCompatActivity() {
             "///////////////////////////////////abcdefghijklmnopqrstuvwxyabcdefghijklmnopqrstuvwxy" // 한글 + 영어
         text_tv.moreText = "(10)"
 
-//        Pattern.matches - "^[0-9a-zA-Z가-힣]*$"
-//
-
-        Log.e(">>>>>>", ">>>>>>>>> 가 ${'가'.toInt()}")
-        Log.e(">>>>>>", ">>>>>>>>> ㄱ ${'ㄱ'.toInt()}")
-        Log.e(">>>>>>", ">>>>>>>>> ㄴ ${'ㄴ'.toInt()}")
-
         // 해당 한글을 찾아 pure length를 찾는다.
         // pure length 는(영어 or 숫자, asc 값 범위)기준 값을 말한다.
         // 영어 숫자 대비 한글의 경우 1.5 수준을 가진다.
